@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import Loader from './components/Loader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
+import About from './components/About'  // <- Import About
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import GitHub from './components/GitHub'
@@ -63,7 +63,7 @@ function App() {
       <Navbar />
       <Hero showToast={showToast} />
       <div className="divider"></div>
-      <About />
+      <About openModal={openModal} />  {/* <- ITO - Pass openModal to About */}
       <div className="divider"></div>
       <Skills />
       <div className="divider"></div>
