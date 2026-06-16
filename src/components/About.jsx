@@ -4,7 +4,6 @@ const About = ({ openModal }) => {
   return (
     <section id="about">
       <div className="section-number" aria-hidden="true">01</div>
-
       <div data-aos="fade-up" style={{ position: 'relative', zIndex: 1 }}>
         <div className="section-eyebrow">
           <span className="eyebrow-dash"></span>
